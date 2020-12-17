@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-Certificacao-LPIC-101
+CERTIFICAÇAÕ LPIC 101
 </h1>
 <p align="center">
   <a href="https://github.com/edivancarvalho">
