@@ -76,7 +76,7 @@ unexpand -t 2 espaços.txt
 
 #--------------------
 od
-# Mostra o arquivo em formato exadecimal
+# Mostra o arquivo em formato octal
 od nomes.txt
 
 #---------------------
