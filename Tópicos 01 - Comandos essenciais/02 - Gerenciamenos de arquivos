@@ -1,0 +1,61 @@
+#   GERENCIAMENTO DE ARQUIVOS
+
+# Mostra arquivos ocultos
+ls -a 
+
+# Com mais informações
+ls -lha
+
+#------------------
+touch
+# criar arquivo.
+touch edivan.txt
+
+#-----------
+cp
+# Copiando arquivo(s).
+cp edivan.txt /tmp/
+
+# Movendo arquivo
+mv edivan.txt /opt/
+
+# removeno arquivo.
+rm edivan.txt
+
+# removenod Diretorio
+rm -f pasta01
+
+# Criando Diretorio
+mkdir pasta01
+
+# Criando diretorio e subdiretorio
+mkdir -p pasta01/edivan
+
+# Procurando um arquivo ou pasta | diretorio.
+find / -name edivan.txt
+
+find / -name *.conf
+
+# Procura tanto com maiusculas como menusculas com o -iname.
+find / -iname *.conf
+
+# Arquivos que foram modificados nos ultimos dias
+find / -ctime -1
+
+#================================================================#
+        PARTE 2
+#================================================================#
+
+# AGRUPAMENTO DE ARQUIVOS;
+
+# Não compactar arquivo apenas agrupar o arquivo ou documento.
+tar 
+tar cpvf backup.tar /tmp
+c - Criar;
+p - Mantem as permissões;
+v - Verbose, ver como o arquivo esta sendo criado;
+f - contar o arquivo que será criado.
+Esse comando ele não compatou o arquivo apenas agrupou.
+
+# compactar arquivos ou diretorio
+gzip nota.tar
