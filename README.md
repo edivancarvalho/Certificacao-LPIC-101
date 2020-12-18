@@ -11,3 +11,6 @@ CERTIFICAÇÃO LPIC 101
 
 ## 📚 Situação Problema
 Material de estudo para a certificação Linux - LPIC 101
+
+---
+    - Comandos essenciais
